@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1502283747592' stop='1502283764465'>
+    <name>Navigating to the homepage</name>
+    <title>Navigating to the homepage</title>
+    <test-cases>
+        <test-case start='1502283747625' status='broken' stop='1502283757723'>
+            <name>Waiting for CTA</name>
+            <title>Waiting for CTA</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","os":"windows","resolution":"1920x1080"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/alexeytitov/Desktop/Tests/healthjoy.com/test/homepage.test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1502283747674' status='passed' stop='1502283747763'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/timeouts</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='2dd011b9-6a4e-4909-bbd6-b62cf46b597d-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='ab753d24-9469-4a41-93f1-4b3decbdda28-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283747819' status='passed' stop='1502283757072'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/url</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/url</title>
+                    <attachments>
+                        <attachment title='Request' source='60cd522a-e434-455b-b660-3697a49e2ba2-attachment.json' type='application/json' size='39'/>
+                        <attachment title='Response' source='58e905da-6f89-4818-afbe-4df23aaf72cf-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283757344' status='passed' stop='1502283757603'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a42e24cd-85ca-4e8f-b7ca-7c1ee9e2c161-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='c69247e0-b269-45da-900c-b272c325a615-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283757654' status='broken' stop='1502283757722'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ef642b97-1a39-44b4-9d2c-2a266d3ecbbe-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/alexeytitov/Desktop/Tests/healthjoy.com/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:386:14)
+                    at tryOnTimeout (timers.js:250:5)
+                    at Timer.listOnTimeout (timers.js:214:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1502283757737' status='passed' stop='1502283764453'>
+            <name>Calling the feedback form</name>
+            <title>Calling the feedback form</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","os":"windows","resolution":"1920x1080"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/alexeytitov/Desktop/Tests/healthjoy.com/test/homepage.test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1502283757811' status='passed' stop='1502283757821'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/element</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/element</title>
+                    <attachments>
+                        <attachment title='Request' source='04246afe-b75d-44a8-a03b-ab99728ad653-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='a0d8fc3f-4733-4a55-abe1-c61655d684b8-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283758072' status='passed' stop='1502283758675'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/element/0/click</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/element/0/click</title>
+                    <attachments>
+                        <attachment title='Response' source='10d05c7e-a7f2-4cf0-9588-d979fa3a25e1-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283763901' status='passed' stop='1502283764356'>
+                    <name>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</name>
+                    <title>POST /wd/hub/session/08c4ea31-0a91-463b-a25e-4a47810bdf64/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='001ae42c-b7a4-4f6c-b332-60d2880587d6-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='6346492f-d226-44fe-bd3f-f8e68a561301-attachment.json' type='application/json' size='246'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='9b2406af-c660-4d58-a516-e37bd083f39a-attachment.json' type='application/json' size='221'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

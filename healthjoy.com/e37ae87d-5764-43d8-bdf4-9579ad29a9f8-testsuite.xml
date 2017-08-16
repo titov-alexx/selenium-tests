@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1502283042058' stop='1502283058008'>
+    <name>Navigating to the homepage</name>
+    <title>Navigating to the homepage</title>
+    <test-cases>
+        <test-case start='1502283042060' status='broken' stop='1502283052128'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1502283042074' status='passed' stop='1502283042243'>
+                    <name>POST /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/timeouts</name>
+                    <title>POST /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='21342519-794c-4a9b-be36-c11923cc607b-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='22e131a0-cc28-489e-be5b-09491a50d4fb-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1502283042348' status='broken' stop='1502283052127'>
+                    <name>POST /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/url</name>
+                    <title>POST /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ec52d0af-e1ba-45a4-aa83-df797e418094-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/alexeytitov/Desktop/Tests/healthjoy.com/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:386:14)
+                    at tryOnTimeout (timers.js:250:5)
+                    at Timer.listOnTimeout (timers.js:214:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1502283052130' status='broken' stop='1502283058006'>
+            <name>"after all" hook</name>
+            <title>"after all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1502283052319' status='passed' stop='1502283054621'>
+                    <name>GET /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/screenshot</name>
+                    <title>GET /wd/hub/session/840c2ae1-dce2-4324-a282-a2d3b90bb218/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='831483a1-42c5-4370-911a-d1ee976c1951-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='17f8f60c-1b5c-4fc5-9169-8b38533605cd-attachment.png' type='image/png' size='451173'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>Error: 
+                    at Promise.F (node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js:35:28)
+                    at session("delete") - end.js:31:17
+                    at end() - at Context.&lt;anonymous> (test/homepage.test.js:26:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
